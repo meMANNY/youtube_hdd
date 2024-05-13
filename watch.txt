@@ -9,3 +9,4 @@ Steps involved in the project:
 1. play a video using nextjs.
 2. create a upload service.
 3.create a basic frontend ui to select and send file in upload req.
+4.Extract file from request in service and upload to S3.
