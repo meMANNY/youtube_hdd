@@ -8,12 +8,12 @@ const port = process.env.PORT || 3000;
 const app = express();
 
 app.use(cors({
-    allowedHeaders:[""],
+    allowedHeaders:["*"],
     origin: "*",
 }));
 
 app.use(express.json());
-
+app.use('/upload', uploadRouter);
 app.get("/",(req,res)=>{
     res.send("HHld Youtube");
 })
