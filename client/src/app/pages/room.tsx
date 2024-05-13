@@ -4,11 +4,11 @@ import dynamic from "next/dynamic";
 const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 const Room = () => {
-  const [userStream, setUserStream] = useState(null); // Initialize userStream as null
+  const [userStream, setUserStream] = useState(); // Initialize userStream as null
 
   const streamUser = async () => {
     try {
-      const stream = await navigator.mediaDevices.getUserMedia({
+      const stream: any= await navigator.mediaDevices.getUserMedia({
         video: true,
         audio: true,
       });

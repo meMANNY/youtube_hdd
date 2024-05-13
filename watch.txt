@@ -1,1 +1,11 @@
 watch the upload controller
+
+
+
+
+
+
+Steps involved in the project:
+1. play a video using nextjs.
+2. create a upload service.
+3.create a basic frontend ui to select and send file in upload req.
