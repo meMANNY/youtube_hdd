@@ -1,3 +1,5 @@
+import UploadForm from "../uploads/page";
+
 const UploadPage = () => {
     return(
         <div>
